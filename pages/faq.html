@@ -14,77 +14,245 @@
   <div data-site-header></div>
 
   <main>
-    <section class="page-hero section-pad">
-      <div class="container">
-        <div class="section-heading">
-          <span class="eyebrow text-brand">Preguntas frecuentes</span>
-          <h1 class="page-title">Centro de ayuda organizado por categorías y acordeones.</h1>
-          <p>Se respeta la intención del PDF con categorías visibles al inicio y contenido desplegable debajo.</p>
+    <section class="brands-hero">
+      <div class="container-fluid p-2">
+        <div class="brands-title-shell text-center">
+          <h1 class="brands-title">Preguntas <span>frecuentes</span></h1>
         </div>
-        <div class="chip-group">
-          <span class="chip">Nuestras motos</span>
-          <span class="chip">Facturación</span>
-          <span class="chip">Franquicias</span>
-          <span class="chip">Marcas</span>
-          <span class="chip">Otros</span>
-        </div>
-      </div>
     </section>
 
-    <section class="section-pad">
-      <div class="container">
-        <div class="accordion faq-accordion" id="faqAccordion">
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq-1">
-                ¿Qué marcas se pueden mostrar en esta página?
-              </button>
-            </h2>
-            <div id="faq-1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
-              <div class="accordion-body">
-                La plantilla está lista para incorporar preguntas de motos, servicios, financiamiento, franquicias y cualquier otro tema relevante.
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-2">
-                ¿Cómo se reemplazan estos textos?
-              </button>
-            </h2>
-            <div id="faq-2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-              <div class="accordion-body">
-                Solo hay que actualizar el copy en el HTML correspondiente o conectar el sitio a un CMS o backend más adelante.
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-3">
-                ¿La estructura ya es responsive?
-              </button>
-            </h2>
-            <div id="faq-3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-              <div class="accordion-body">
-                Sí. La maquetación se resolvió con Bootstrap y ajustes CSS para que funcione tanto en escritorio como en móvil.
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-4">
-                ¿Se puede conectar después con formularios reales?
-              </button>
-            </h2>
-            <div id="faq-4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-              <div class="accordion-body">
-                Sí. Dejé los formularios estructurados para que luego sea simple agregar validación y envío real.
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+    <section>
+        <article class="articlemarcas text-align-start justify-content-start align-items-start m-3 p-4" data-brands-intro-card>
+          <h1 data-brands-intro-title >En Elektra Motos sabemos que invertir <span class="text-danger">en una franquicia es una decisión importante.</span></h1>
+          <p data-brands-intro-copy-a>Aquí resolvemos las dudas más comunes para ayudarte a dar el siguiente paso 
+con confianza.</p>
+        </article>
+
     </section>
+<section class="faq-section p-2 m-2">
+
+  <div class="container-fluid p-4 border">
+
+    <!-- FAQ -->
+    <div class="accordion custom-faq " id="faqAccordion">
+
+      <!-- ITEM -->
+      <div class="accordion-item">
+
+        <h2 class="accordion-header">
+
+          <button class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#faq1">
+
+            ¿QUÉ MARCAS SE PUEDEN COMERCIALIZAR?
+
+          </button>
+
+        </h2>
+
+        <div id="faq1"
+             class="accordion-collapse collapse show"
+             data-bs-parent="#faqAccordion">
+
+          <div class="accordion-body">
+            Italika, Hero, Morbidelli y Benelli bajo un esquema multimarca.
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- ITEM -->
+      <div class="accordion-item">
+
+        <h2 class="accordion-header">
+
+          <button class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#faq2">
+
+            ¿CÓMO SE GESTIONA EL CRÉDITO PARA EL CLIENTE FINAL?
+
+          </button>
+
+        </h2>
+
+        <div id="faq2"
+             class="accordion-collapse collapse"
+             data-bs-parent="#faqAccordion">
+
+          <div class="accordion-body">
+            A través de Banco Azteca con pago en el mismo concesionario.
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- ITEM -->
+      <div class="accordion-item">
+
+        <h2 class="accordion-header">
+
+          <button class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#faq3">
+
+            ¿QUÉ AYUDA RECIBO PARA EL LOCAL?
+
+          </button>
+
+        </h2>
+
+        <div id="faq3"
+             class="accordion-collapse collapse"
+             data-bs-parent="#faqAccordion">
+
+          <div class="accordion-body">
+            Diseño de Lay Out, análisis de localidad y asesoría de remodelación sin costo.
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- ITEM -->
+      <div class="accordion-item">
+
+        <h2 class="accordion-header">
+
+          <button class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#faq4">
+
+            ¿EXISTEN BENEFICIOS POR VOLUMEN?
+
+          </button>
+
+        </h2>
+
+        <div id="faq4"
+             class="accordion-collapse collapse"
+             data-bs-parent="#faqAccordion">
+
+          <div class="accordion-body">
+            Sí, hay esquemas de escalonamiento y descuentos adicionales por volumen de compra.
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- ITEM -->
+      <div class="accordion-item">
+
+        <h2 class="accordion-header">
+
+          <button class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#faq5">
+
+            ¿LA COMPETENCIA ES MUY FUERTE?
+
+          </button>
+
+        </h2>
+
+        <div id="faq5"
+             class="accordion-collapse collapse"
+             data-bs-parent="#faqAccordion">
+
+          <div class="accordion-body">
+            Italika posee el 70% de participación México y con el mejor fill rate del mercado de Ensamblika, nos hacen muy competitivos ante otras franquicias.
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- ITEM -->
+      <div class="accordion-item">
+
+        <h2 class="accordion-header">
+
+          <button class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#faq6">
+
+            ¿EL CONTROL DEL CORPORATIVO ES EXCESIVO?
+
+          </button>
+
+        </h2>
+
+        <div id="faq6"
+             class="accordion-collapse collapse"
+             data-bs-parent="#faqAccordion">
+
+          <div class="accordion-body">
+            El concesionario debe aceptar ser supervisado y controlado para garantizar el éxito y la estandarización del sistema.
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- ITEM -->
+      <div class="accordion-item">
+
+        <h2 class="accordion-header">
+
+          <button class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#faq7">
+
+            ¿CUÁL ES EL RIESGO DE INVENTARIO?
+
+          </button>
+
+        </h2>
+
+        <div id="faq7"
+             class="accordion-collapse collapse"
+             data-bs-parent="#faqAccordion">
+
+          <div class="accordion-body">
+            Se mitiga ofreciendo una línea de crédito a distribuidores de 90 y hasta 
+120 días para la compra de motocicletas.
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <div class="logos mt-4 justify-content-center d-flex flex-wrap gap-4 logos-faq">
+      <img src="/assets/img/logo-Italika 1.png" alt="Italika">
+      <img src="/assets/img/logo-morbideli3 1.png" alt="Morbidelli">
+      <img src="/assets/img/logo-Hero 1.png" alt="Hero">
+      <img src="/assets/img/logo-Benelli 1.png" alt="Benelli">
+    </div>
+
+  </div>
+
+</section>
+
   </main>
 
   <div data-site-footer></div>

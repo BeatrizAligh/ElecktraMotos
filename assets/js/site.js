@@ -60,9 +60,6 @@
           <div class="collapse navbar-collapse" id="siteNav">
             <ul class="navbar-nav ms-auto align-items-xl-center gap-xl-2">
               ${navLinks}
-              <li class="nav-item ms-xl-3">
-                <a class="btn btn-brand" href="${routes.registro}">Registrate</a>
-              </li>
             </ul>
           </div>
         </div>
